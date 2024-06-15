@@ -6,7 +6,7 @@ spring:
 
 logging:
   level:
-    eu.finbite.finbitecli: DEBUG
+    eu.finbite.finbitecli: INFO
 
 finbite:
   packages:
