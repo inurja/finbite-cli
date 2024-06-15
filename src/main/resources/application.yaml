@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: finbite-cli
+  main:
+    web-application-type: none
+
+logging:
+  level:
+    eu.finbite.finbitecli: DEBUG
+
+finbite:
+  packages:
+    s:
+      minutes: 10
+      sms: 50
+      cost-eur: 5
+    m:
+      minutes: 50
+      sms: 100
+      cost-eur: 10
+    l:
+      minutes: 500
+      sms: 500
+      cost-eur: 20
+  one-min-extra-eur: 0.2
+  one-sms-extra-eur: 0.3
