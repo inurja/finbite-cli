@@ -9,3 +9,4 @@
 - Application has hardcoded EUR. Interface for money would be better or Money and Currency API
 - Could use dockerignore for docker build
 - Haven't done testing in a long while, got stuck on it, but I think current unit tests cover core logic
+- Some services are maybe too specific and therefore, without Interface. Interface would have allowed for TDD and implement new/similar logic in future better.
